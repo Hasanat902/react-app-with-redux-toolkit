@@ -35,7 +35,7 @@ const Product = () => {
 
   return (
     <div>
-      <h2 className="text-center">This is product Dashboard</h2>
+      <h2 className="text-center">Product Dashboard</h2>
       <div className="row">{cards}</div>
     </div>
   );
