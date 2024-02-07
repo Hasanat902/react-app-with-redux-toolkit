@@ -27,7 +27,7 @@ const Product = () => {
         </Card.Body>
 
         <Card.Footer className="text-center" style={{ background: "white" }}>
-          <Button variant="primary">Add To Cart</Button>
+          <Button variant="primary" onClick={() => addToCart(product)}>Add To Cart</Button>
         </Card.Footer>
       </Card>
     </div>
